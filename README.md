@@ -28,6 +28,7 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 ## Plugins (very simple)
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
 - `inf_boost.plugin`: Makes boosts basically permanent. (Activate once before installing)
+- `1daat_mode.plugin`: Changes the displayed mode to 1DAAT.
 - `kill_tracker.plugin`: Shows combat session KC gained and KC per hour.
 - `multi_skill.plugin`: Lets combat and skilling run at the same time. (Start combat first)
 - `offline_infinity.plugin`: Removes the offline 24-hour cap and updates labels to infinity.
