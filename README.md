@@ -1,5 +1,7 @@
 # Rocky Idle Plugin Manager
 
+![Rocky Idle Plugin Manager](social-preview.png)
+
 This repository is organized so plugin files are easy to see and download.
 
 ## Repository layout
