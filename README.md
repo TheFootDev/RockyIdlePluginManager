@@ -28,12 +28,12 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 ## Plugins (very simple)
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
 - `inf_boost.plugin`: Makes boosts basically permanent. (Activate once before installing)
-- `1daat_mode.plugin`: Changes the displayed mode to 1DAAT.
 - `kill_tracker.plugin`: Shows combat session KC gained and KC per hour.
 - `multi_skill.plugin`: Lets combat and skilling run at the same time. (Start combat first)
 - `offline_infinity.plugin`: Removes the offline 24-hour cap and updates labels to infinity.
 - `skill_stars.plugin`: Adds star badges to high-level skills.
 - `tree_boost_burn.plugin`: Makes bush/tree actions faster when skilling boosts are high.
 - `xp_tracker.plugin`: Shows XP per hour and level-time estimates.
+- `1daat_mode.plugin`: Changes the displayed mode to 1DAAT.
 
 Some plugins are considered cheaty! for the sake of the game, please dont use inf boost unless you REALLY want to speed up the game, bare in mind it shortens the game to roughly 1/5 of the time it would take on average.
