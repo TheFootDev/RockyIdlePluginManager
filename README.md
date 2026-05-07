@@ -33,7 +33,7 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 - `offline_infinity.plugin`: Removes the offline 24-hour cap and updates labels to infinity.
 - `skill_stars.plugin`: Adds star badges to high-level skills.
 - `tree_boost_burn.plugin`: Makes bush/tree actions faster when skilling boosts are high.
-- `xp_tracker.plugin`: Shows XP per hour and level-time estimates.
+- `xp_tracker.plugin`: XP Tracker for total and per-skill XP per hour from in-game toasts.
 - `mode_1daat.plugin`: Changes the displayed mode to 1DAAT.
 
 Some plugins are considered cheaty! for the sake of the game, please dont use inf boost unless you REALLY want to speed up the game, bare in mind it shortens the game to roughly 1/5 of the time it would take on average.
