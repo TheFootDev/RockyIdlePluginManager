@@ -23,4 +23,13 @@ This repository is organized so plugin files are easy to see and download.
 
 Uninstall and reinstall is the safest way to re-apply patches after game file changes.
 
+## Plugins (very simple)
+- `auto_boost.plugin`: Auto-clicks boost buttons for you.
+- `devtools.plugin`: Turns dev tools back on (F12).
+- `inf_boost.plugin`: Makes boosts basically permanent.
+- `multi_skill.plugin`: Lets combat and skilling run at the same time.
+- `skill_stars.plugin`: Adds star badges to high-level skills.
+- `tree_boost_burn.plugin`: Makes bush/tree actions faster when skilling boosts are high.
+- `xp_tracker.plugin`: Shows XP per hour and level-time estimates.
+
 Some plugins are considered cheaty! for the sake of the game, please dont use inf boost unless you REALLY want to speed up the game, bare in mind it shortens the game to roughly 1/5 of the time it would take on average.
