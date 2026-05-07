@@ -25,7 +25,6 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 
 ## Plugins (very simple)
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
-- `devtools.plugin`: Turns dev tools back on (F12).
 - `inf_boost.plugin`: Makes boosts basically permanent.
 - `multi_skill.plugin`: Lets combat and skilling run at the same time.
 - `skill_stars.plugin`: Adds star badges to high-level skills.
