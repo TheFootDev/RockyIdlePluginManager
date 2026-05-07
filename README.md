@@ -26,7 +26,7 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 ## Plugins (very simple)
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
 - `inf_boost.plugin`: Makes boosts basically permanent.
-- `multi_skill.plugin`: Lets combat and skilling run at the same time.
+- `multi_skill.plugin`: Lets combat and skilling run at the same time. (Start combat first)
 - `skill_stars.plugin`: Adds star badges to high-level skills.
 - `tree_boost_burn.plugin`: Makes bush/tree actions faster when skilling boosts are high.
 - `xp_tracker.plugin`: Shows XP per hour and level-time estimates.
