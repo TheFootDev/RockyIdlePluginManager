@@ -34,6 +34,6 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 - `skill_stars.plugin`: Adds star badges to high-level skills.
 - `tree_boost_burn.plugin`: Makes bush/tree actions faster when skilling boosts are high.
 - `xp_tracker.plugin`: Shows XP per hour and level-time estimates.
-- `1daat_mode.plugin`: Changes the displayed mode to 1DAAT.
+- `mode_1daat.plugin`: Changes the displayed mode to 1DAAT.
 
 Some plugins are considered cheaty! for the sake of the game, please dont use inf boost unless you REALLY want to speed up the game, bare in mind it shortens the game to roughly 1/5 of the time it would take on average.
