@@ -22,3 +22,5 @@ This repository is organized so plugin files are easy to see and download.
 3. Install them again.
 
 Uninstall and reinstall is the safest way to re-apply patches after game file changes.
+
+Some plugins are considered cheaty! for the sake of the game, please dont use inf boost unless you REALLY want to speed up the game, bare in mind it shortens the game to roughtly 1/5 of the time it would take on average.
