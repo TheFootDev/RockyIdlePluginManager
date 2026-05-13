@@ -27,6 +27,7 @@
 Uninstall and reinstall is the safest way to re-apply patches after game file changes.
 
 ## Plugins
+- `60secondfarming.plugin`: Forces farming run timers (including Salmonberry) to 60 seconds.
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
 - `boost_multiplier_2x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 2x.
 - `boost_multiplier_5x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 5x.
