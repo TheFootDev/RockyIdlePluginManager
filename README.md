@@ -31,7 +31,7 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 - `boost_multiplier_2x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 2x.
 - `boost_multiplier_5x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 5x.
 - `boost_multiplier.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 10x.
-- `inf_boost.plugin`: Makes boosts basically permanent. (Activate once before installing)
+- `inf_boost.plugin`: Makes boosts basically permanent. (Install while boost activated)
 - `kill_tracker.plugin`: Shows combat session KC gained and KC per hour.
 - `multi_skill.plugin`: Lets combat and skilling run at the same time. (Start combat first)
 - `offline_infinity.plugin`: Removes the offline 24-hour cap and updates labels to infinity.
