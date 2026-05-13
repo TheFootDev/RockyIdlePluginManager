@@ -26,7 +26,7 @@
 
 Uninstall and reinstall is the safest way to re-apply patches after game file changes.
 
-## Plugins (very simple)
+## Plugins
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
 - `boost_multiplier_2x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 2x.
 - `boost_multiplier_5x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 5x.
@@ -40,7 +40,7 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 - `xp_tracker.plugin`: XP Tracker for total and per-skill XP per hour from in-game toasts.
 - `mode_1daat.plugin`: Changes the displayed mode to 1DAAT.
 
-### Cheats quick install
+### Multiplier Cheats
 1. Pick one boost multiplier variant (`2x`, `5x`, or `10x`).
 2. Install and enable only one multiplier variant at a time.
 3. If you switch variants, disable the old one first, then enable the new one.
