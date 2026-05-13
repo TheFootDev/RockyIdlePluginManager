@@ -28,7 +28,6 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 
 ## Plugins
 - `auto_boost.plugin`: Auto-clicks boost buttons for you.
-- `inf_boost.plugin`: Makes boosts basically permanent. (Install while boost activated)
 - `kill_tracker.plugin`: Shows combat session KC gained and KC per hour.
 - `multi_skill.plugin`: Lets combat and skilling run at the same time. (Start combat first)
 - `offline_infinity.plugin`: Removes the offline 24-hour cap and updates labels to infinity.
@@ -48,5 +47,6 @@ Uninstall and reinstall is the safest way to re-apply patches after game file ch
 - `boost_multiplier_2x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 2x.
 - `boost_multiplier_5x.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 5x.
 - `boost_multiplier.plugin`: Multiplies active skilling boosts (Speed, Loot, XP) by 10x.
+- `inf_boost.plugin`: Makes boosts basically permanent. (Install while boost activated)
 
 Some plugins are considered cheaty! for the sake of the game, please dont use inf boost unless you REALLY want to speed up the game, bare in mind it shortens the game to roughly 1/5 of the time it would take on average.
