@@ -8,12 +8,12 @@
 - `Rocky Plugin Manager/` contains the app files.
 - `Rocky Plugin Manager/RPM.exe` is the manager executable.
 - `Rocky Plugin Manager/plugins/` is where plugin files go when using the app.
-- `*.plugin` files are listed at repository root for easy download.
-- `Cheats/` contains grouped cheat plugin builds.
+- Most non-cheaty `*.plugin` files are listed at repository root for easy download.
+- `Cheats/` contains cheaty plugin builds.
 
 ## Setup
 1. Download the `Rocky Plugin Manager` folder.
-2. Download any plugin files you want from repository root (`*.plugin`).
+2. Download plugin files from repository root (`*.plugin`) for normal plugins, or from `Cheats/` for cheaty plugins.
 3. Put those `.plugin` files into `Rocky Plugin Manager/plugins/`.
 4. Run `Rocky Plugin Manager/RPM.exe`.
 5. Click `Locate Game Folder` and select your Rocky Idle install.
