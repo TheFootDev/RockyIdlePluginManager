@@ -1,4 +1,4 @@
-# Rocky Idle Plugin Manager
+# (OUTDATED)Rocky Idle Plugin Manager
 
 ![Rocky Idle Plugin Manager](social-preview.png)
 
