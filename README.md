@@ -1,70 +1,117 @@
-# (OUTDATED)Rocky Idle Plugin Manager
+# Rocky Idle Plugin Manager
 
 ![Rocky Idle Plugin Manager](social-preview.png)
 
-Plugin manager for the Steam game **Rocky Idle**. Updated for the May 2026 game build.
+Plugin manager for the Steam game **Rocky Idle**. Updated for the **May 2026** game build (`index-CVsOJkcy.js` and related bundles).
 
 ## Repository layout
 
-- `Rocky Plugin Manager/` — app folder (run `RPM.exe` from here)
-- `Rocky Plugin Manager/RPM.exe` — plugin manager executable
-- `Rocky Plugin Manager/plugins/` — drop `.plugin` files here for the app to load
-- `*.plugin` at repository root — normal plugins (easy download)
-- `Cheats/` — cheat-style plugin builds
+| Path | Purpose |
+|------|---------|
+| `Rocky Plugin Manager/RPM.exe` | Plugin manager (run this) |
+| `Rocky Plugin Manager/plugins/` | Drop `.plugin` files here |
+| `*.plugin` (repo root) | Normal plugins — download individually |
+| `Cheats/*.plugin` | Cheat-style plugins |
+| `Utility/*.plugin` | Utility plugins (non-cheat helpers) |
+
+Typical install folder:
+
+```
+Rocky Plugin Manager/
+├── RPM.exe
+├── state.json          (created after first use)
+└── plugins/
+    ├── kill_tracker.plugin
+    ├── multi_skill.plugin
+    └── …
+```
 
 ## Setup
 
-1. Download the **`Rocky Plugin Manager`** folder (or clone this repo).
-2. Download `.plugin` files from the repo root (normal) or from `Cheats/` (cheaty).
-3. Put those `.plugin` files into `Rocky Plugin Manager/plugins/`.
-4. Run `Rocky Plugin Manager/RPM.exe`.
-5. Click **Locate Game Folder** and select your Rocky Idle install.
-6. Install plugins from the manager.
+1. Download or clone this repo.
+2. Copy `.plugin` files from the **repo root**, **`Cheats/`**, or **`Utility/`** into `Rocky Plugin Manager/plugins/`.
+3. Run `Rocky Plugin Manager/RPM.exe`.
+4. Click **Locate Game Folder** and select your Rocky Idle install (e.g. `Steam/steamapps/common/Rocky Idle`).
+5. Click **↓** on a plugin to install, **↑** to uninstall.
+
+Only install plugins you want — each one patches or injects into the game when enabled.
 
 ## After Rocky Idle updates
 
-1. Open the manager.
-2. Uninstall affected plugins.
-3. Install them again.
+Game updates change minified JS bundles and can break plugins until they are updated.
 
-Uninstall and reinstall is the safest way to re-apply patches after game file changes.
+1. Open RPM.
+2. **Uninstall** affected plugins.
+3. If the game was verified/reinstalled, grab the latest `.plugin` files from this repo.
+4. **Install** again.
+5. Fully restart Rocky Idle.
 
-## Plugins
+Uninstall → reinstall is the safest way to re-apply patches cleanly.
 
-- `auto_boost.plugin` — Auto-clicks combat and skilling boost buttons when available.
-- `kill_tracker.plugin` — Combat session KC gained and KC per hour.
-- `multi_skill.plugin` — Combat and skilling at the same time (start combat first).
-- `offline_infinity.plugin` — Removes the offline 24-hour cap; labels show infinity.
-- `slayer_auto_task.plugin` — Repeat task toggle under Expert; re-assigns the same task on completion.
-- `toaster_tracker.plugin` — Per-skill and total XP/hr from in-game toasts.
-- `tree_boost_burn.plugin` — Faster bush/tree actions when skilling boosts are high.
-- `mode_1daat.plugin` — Changes the displayed mode to 1DAAT.
+---
 
-## Cheaty plugins
+## Plugins (repo root)
 
-### Multiplier cheats
+| File | What it does |
+|------|----------------|
+| `auto_boost.plugin` | Auto-clicks combat and skilling boost buttons when off cooldown. |
+| `kill_tracker.plugin` | Kill counter and kills/hr for your current combat session (panel under combat UI). |
+| `multi_skill.plugin` | Combat and skilling at the same time — start combat first, then start a skill. |
+| `offline_infinity.plugin` | Removes the 24-hour offline progress cap; offline UI shows infinity. |
+| `slayer_auto_task.plugin` | **Repeat task** row under Expert in Slayer Difficulties; when on, finishing a task re-assigns the same master and length. |
+| `slayer_point_rebalance.plugin` | Slayer Buy (except Auto Eat) and Offline unlock costs ÷10; Extend task costs 75% off. |
+| `toaster_tracker.plugin` | Tracks XP from toast popups; shows per-skill XP/hr and total XP/hr panel. |
+| `tree_boost_burn.plugin` | Bush/tree run timers reduced by 2% per skilling boost tier (max 80% at tier 40). |
+| `mode_1daat.plugin` | Changes the Countryside mode badge text to **1DAAT**. |
 
-1. Pick **one** boost multiplier variant (`2x`, `5x`, or `10x`).
-2. Install and enable only one multiplier at a time.
-3. When switching, uninstall the old one first.
+> **Note:** `toaster_tracker.plugin` replaces the old `xp_tracker.plugin` (removed).
 
-- `60secondfarming.plugin` — Forces bush/tree farming run timers to 60 seconds.
-- `boost_multiplier_2x.plugin` — Multiplies active skilling boosts by 2x.
-- `boost_multiplier_5x.plugin` — Multiplies active skilling boosts by 5x.
-- `boost_multiplier.plugin` — Multiplies active skilling boosts by 10x.
-- `contract_buyout.plugin` — Buy out contracts for coins (Easy 1m … Expert 10m).
-- `devtools.plugin` — Enables devtools in the game client.
-- `inf_boost.plugin` — Removes boost cooldown; keeps boosts running (Perma).
-- `slayer_point_rebalance.plugin` — Lowers slayer shop/offline point costs.
+---
 
-Some plugins are cheaty. Use inf boost and multipliers only if you want a much faster run — they shorten the game significantly.
+## Cheaty plugins (`Cheats/`)
 
-## Building from source (developers)
+### Boost multipliers
 
-Source lives in the separate dev tree (`plugins/` folders). To rebuild GitHub release assets:
+Install **only one** multiplier at a time. Uninstall the current one before switching.
 
-```powershell
-python tools/build_github_release.py
-```
+| File | Effect |
+|------|--------|
+| `boost_multiplier_2x.plugin` | Active skilling boosts (Speed, Batch) ×2 |
+| `boost_multiplier_5x.plugin` | Active skilling boosts ×5 |
+| `boost_multiplier.plugin` | Active skilling boosts ×10 |
 
-That packs `.plugin` archives and copies `RPM.exe` into this repository layout.
+### Other cheats
+
+| File | What it does |
+|------|----------------|
+| `1_minute_farming.plugin` | All bush/tree farming runs complete in 1 minute. |
+| `inf_boost.plugin` | Infinite boost duration (**Perma**), no cooldown. |
+
+Cheat plugins significantly shorten progression. Use at your own discretion.
+
+---
+
+## Utility plugins (`Utility/`)
+
+| File | What it does |
+|------|----------------|
+| `devtools.plugin` | Re-enables Developer Tools (F12 / Ctrl+Shift+I). |
+
+---
+
+## Removed plugins
+
+These are no longer in this repo:
+
+- `xp_tracker.plugin` → use **`toaster_tracker.plugin`**
+- `skill_stars.plugin` → removed
+- `slayer_auto_task_legit.plugin` → replaced by **`slayer_auto_task.plugin`** (repeat toggle, no forced 250 kills)
+- `contract_buyout.plugin` → removed (broken on current game build)
+- `60secondfarming.plugin` → renamed to **`1_minute_farming.plugin`** (in `Cheats/`)
+
+---
+
+## Links
+
+- [GitHub repository](https://github.com/TheFootDev/RockyIdlePluginManager)
+- Rocky Idle on [Steam](https://store.steampowered.com/app/2920300/Rocky_Idle/)
