@@ -55,6 +55,7 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 | File | What it does |
 |------|----------------|
 | `auto_boost.plugin` | Auto-clicks combat and skilling boost buttons when off cooldown. |
+| `buyable_keys.plugin` | Adds Easy, Medium, Hard, and Expert keys to the **Other** shop — matching contract + 1M / 5M / 12M / 25M gold. |
 | `kill_tracker.plugin` | Kill counter and kills/hr for your current combat session (panel under combat UI). |
 | `multi_skill.plugin` | Combat and skilling at the same time — start combat first, then start a skill. |
 | `offline_infinity.plugin` | Removes the 24-hour offline progress cap; offline UI shows infinity. |
