@@ -60,6 +60,7 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 | `offline_infinity.plugin` | Removes the 24-hour offline progress cap; offline UI shows infinity. |
 | `slayer_auto_task.plugin` | **Repeat task** row under Expert in Slayer Difficulties; when on, finishing a task re-assigns the same master and length. |
 | `slayer_point_rebalance.plugin` | Slayer Buy (except Auto Eat) and Offline unlock costs ÷10; Extend task costs 75% off. |
+| `supply_timer.plugin` | Estimates time until runes, arrows, food, or boost run out — KC-style panel below combat attack bars (days/hours). |
 | `toaster_tracker.plugin` | Tracks XP from toast popups; shows per-skill XP/hr and total XP/hr panel. |
 | `tree_boost_burn.plugin` | Bush/tree run timers reduced by 2% per skilling boost tier (max 80% at tier 40). |
 | `mode_1daat.plugin` | Changes the Countryside mode badge text to **1DAAT**. |
