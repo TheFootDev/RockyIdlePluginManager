@@ -80,6 +80,7 @@ Install **only one** multiplier at a time. Uninstall the current one before swit
 | `boost_multiplier_2x.plugin` | Active skilling boosts (Speed, Batch) ×2 |
 | `boost_multiplier_5x.plugin` | Active skilling boosts ×5 |
 | `boost_multiplier.plugin` | Active skilling boosts ×10 |
+| `drop_multiplier_5x.plugin` | Monster kill drops ×5 (quantities and drop rolls) |
 
 ### Other cheats
 
