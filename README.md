@@ -54,6 +54,7 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 
 | File | What it does |
 |------|----------------|
+| `autoplanter.plugin` | **AP** toggle on one bush/tree card at a time — auto-claims finished runs and replants that crop. **Keep the Farming runs tab open** while AFKing; best for a single bush/tree session, not offline automation. |
 | `auto_boost.plugin` | Auto-clicks combat and skilling boost buttons when off cooldown. |
 | `buyable_keys.plugin` | Adds Easy, Medium, Hard, and Expert keys to the **Other** shop — matching contract + 1M / 5M / 12M / 25M gold. |
 | `kill_tracker.plugin` | Kill counter and kills/hr for your current combat session (panel under combat UI). |
