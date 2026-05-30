@@ -9,10 +9,8 @@ Plugin manager for the Steam game **Rocky Idle**. Updated for the **May 2026** g
 | Path | Purpose |
 |------|---------|
 | `Rocky Plugin Manager/RPM.exe` | Plugin manager (run this) |
-| `Rocky Plugin Manager/plugins/` | Drop `.plugin` files here |
-| `*.plugin` (repo root) | Normal plugins — download individually |
-| `Cheats/*.plugin` | Cheat-style plugins |
-| `Utility/*.plugin` | Utility plugins (non-cheat helpers) |
+| `Rocky Plugin Manager/plugins/` | Your local install folder — copy `.plugin` files here |
+| `plugins/` | All downloadable `.plugin` files (repo releases) |
 
 Typical install folder:
 
@@ -29,7 +27,7 @@ Rocky Plugin Manager/
 ## Setup
 
 1. Download or clone this repo.
-2. Copy `.plugin` files from the **repo root**, **`Cheats/`**, or **`Utility/`** into `Rocky Plugin Manager/plugins/`.
+2. Copy `.plugin` files from **`plugins/`** into `Rocky Plugin Manager/plugins/`.
 3. Run `Rocky Plugin Manager/RPM.exe`.
 4. Click **Locate Game Folder** and select your Rocky Idle install (e.g. `Steam/steamapps/common/Rocky Idle`).
 5. Click **↓** on a plugin to install, **↑** to uninstall.
@@ -42,7 +40,7 @@ Game updates change minified JS bundles and can break plugins until they are upd
 
 1. Open RPM.
 2. **Uninstall** affected plugins.
-3. If the game was verified/reinstalled, grab the latest `.plugin` files from this repo.
+3. If the game was verified/reinstalled, grab the latest `.plugin` files from `plugins/`.
 4. **Install** again.
 5. Fully restart Rocky Idle.
 
@@ -50,7 +48,7 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 
 ---
 
-## Plugins (repo root)
+## Standard plugins (`plugins/`)
 
 | File | What it does |
 |------|----------------|
@@ -59,6 +57,7 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 | `kill_tracker.plugin` | Kill counter and kills/hr for your current combat session (panel under combat UI). |
 | `multi_skill.plugin` | Combat and skilling at the same time — start combat first, then start a skill. |
 | `offline_infinity.plugin` | Removes the 24-hour offline progress cap; offline UI shows infinity. |
+| `osrs_scythe.plugin` | Adds **Scythe of Vitur** (2× Stingar hammer stats, 2.00 attack speed, 120 Melee req). Craft in **Assembling**: 4× Stingar hammer → 1 scythe. |
 | `slayer_auto_task.plugin` | **Repeat task** row under Expert in Slayer Difficulties; when on, finishing a task re-assigns the same master and length. |
 | `slayer_point_rebalance.plugin` | Slayer Buy (except Auto Eat) and Offline unlock costs ÷10; Extend task costs 75% off. |
 | `supply_timer.plugin` | Estimates time until runes, arrows, food, or boost run out — KC-style panel below combat attack bars (days/hours). |
@@ -70,7 +69,9 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 
 ---
 
-## Cheaty plugins (`Cheats/`)
+## Cheat plugins (`plugins/`)
+
+All plugins live in the same `plugins/` folder. These are tagged here because they significantly affect progression — use at your own discretion.
 
 ### Boost multipliers
 
@@ -89,13 +90,10 @@ Install **only one** multiplier at a time. Uninstall the current one before swit
 |------|----------------|
 | `1_minute_farming.plugin` | All bush/tree farming runs complete in 1 minute. |
 | `inf_boost.plugin` | Infinite boost duration (**Perma**), no cooldown — auto-activates on install; fully restart the game after installing. |
-| `osrs_scythe.plugin` | Adds **Scythe of Vitur** (2× Stingar hammer stats, 2.00 attack speed, 120 Melee req). Craft in **Assembling**: 4× Stingar hammer → 1 scythe. |
-
-Cheat plugins significantly shorten progression. Use at your own discretion.
 
 ---
 
-## Utility plugins (`Utility/`)
+## Utility plugins (`plugins/`)
 
 | File | What it does |
 |------|----------------|
@@ -111,7 +109,7 @@ These are no longer in this repo:
 - `skill_stars.plugin` → removed
 - `slayer_auto_task_legit.plugin` → replaced by **`slayer_auto_task.plugin`** (repeat toggle, no forced 250 kills)
 - `contract_buyout.plugin` → removed (broken on current game build)
-- `60secondfarming.plugin` → renamed to **`1_minute_farming.plugin`** (in `Cheats/`)
+- `60secondfarming.plugin` → renamed to **`1_minute_farming.plugin`**
 
 ---
 
