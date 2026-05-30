@@ -88,7 +88,8 @@ Install **only one** multiplier at a time. Uninstall the current one before swit
 | File | What it does |
 |------|----------------|
 | `1_minute_farming.plugin` | All bush/tree farming runs complete in 1 minute. |
-| `inf_boost.plugin` | Infinite boost duration (**Perma**), no cooldown. |
+| `inf_boost.plugin` | Infinite boost duration (**Perma**), no cooldown — auto-activates on install; fully restart the game after installing. |
+| `osrs_scythe.plugin` | Adds **Scythe of Vitur** (2× Stingar hammer stats, 2.00 attack speed, 120 Melee req). Craft in **Assembling**: 4× Stingar hammer → 1 scythe. |
 
 Cheat plugins significantly shorten progression. Use at your own discretion.
 
