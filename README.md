@@ -10,7 +10,9 @@ Plugin manager for the Steam game **Rocky Idle**. Updated for the **May 2026** g
 |------|---------|
 | `Rocky Plugin Manager/RPM.exe` | Plugin manager (run this) |
 | `Rocky Plugin Manager/plugins/` | Your local install folder — copy `.plugin` files here |
-| `plugins/` | All downloadable `.plugin` files (repo releases) |
+| `plugins/` | Standard plugins |
+| `plugins/cheats/` | Cheat-style plugins |
+| `plugins/utility/` | Utility plugins |
 
 Typical install folder:
 
@@ -27,7 +29,7 @@ Rocky Plugin Manager/
 ## Setup
 
 1. Download or clone this repo.
-2. Copy `.plugin` files from **`plugins/`** into `Rocky Plugin Manager/plugins/`.
+2. Copy `.plugin` files from **`plugins/`**, **`plugins/cheats/`**, or **`plugins/utility/`** into `Rocky Plugin Manager/plugins/`.
 3. Run `Rocky Plugin Manager/RPM.exe`.
 4. Click **Locate Game Folder** and select your Rocky Idle install (e.g. `Steam/steamapps/common/Rocky Idle`).
 5. Click **↓** on a plugin to install, **↑** to uninstall.
@@ -40,7 +42,7 @@ Game updates change minified JS bundles and can break plugins until they are upd
 
 1. Open RPM.
 2. **Uninstall** affected plugins.
-3. If the game was verified/reinstalled, grab the latest `.plugin` files from `plugins/`.
+3. If the game was verified/reinstalled, grab the latest `.plugin` files from this repo.
 4. **Install** again.
 5. Fully restart Rocky Idle.
 
@@ -69,9 +71,9 @@ Uninstall → reinstall is the safest way to re-apply patches cleanly.
 
 ---
 
-## Cheat plugins (`plugins/`)
+## Cheat plugins (`plugins/cheats/`)
 
-All plugins live in the same `plugins/` folder. These are tagged here because they significantly affect progression — use at your own discretion.
+Use at your own discretion — these significantly affect progression.
 
 ### Boost multipliers
 
@@ -93,7 +95,7 @@ Install **only one** multiplier at a time. Uninstall the current one before swit
 
 ---
 
-## Utility plugins (`plugins/`)
+## Utility plugins (`plugins/utility/`)
 
 | File | What it does |
 |------|----------------|
